@@ -1,0 +1,38 @@
+h2 {
+  color: var(--color-text);
+  font-size: 20px;
+}
+
+.header {
+  background-color: var(--color-on-background);
+  height: 71px;
+  border-radius: 20px;
+  display: flex;
+  width: 1080px;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    width: 720px;
+    margin: 20px;
+  }
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-left: 5px;
+}
+
+.sun {
+  background-color: #2F354D;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: 15px;
+}
