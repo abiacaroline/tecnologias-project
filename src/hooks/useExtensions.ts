@@ -11,6 +11,7 @@ export type Extension = {
   isActive: boolean;
   nmCategory: string;
   icon: IconType;
+  color: string;
 };
 
 function useExtensions() {
@@ -24,6 +25,7 @@ function useExtensions() {
       isActive: true,
       nmCategory: "Front End",
       icon: FaReact,
+      color: "bg-blue-400"
     },
     {
       id: 2,
@@ -34,6 +36,7 @@ function useExtensions() {
       isActive: false,
       nmCategory: "Front End",
       icon: FaVuejs,
+      color: "bg-green-500"
     },
     {
       id: 3,
@@ -44,6 +47,7 @@ function useExtensions() {
       isActive: true,
       nmCategory: "Front End",
       icon: FaAngular,
+      color: "bg-red-600"
     },
     {
       id: 4,
@@ -54,6 +58,7 @@ function useExtensions() {
       isActive: true,
       nmCategory: "Front End",
       icon: SiNextdotjs,
+      color: "bg-gray-500"
     },
     {
       id: 5,
@@ -64,6 +69,7 @@ function useExtensions() {
       isActive: false,
       nmCategory: "Front End",
       icon: FaSass,
+      color: "bg-pink-400"
     },
     {
       id: 6,
@@ -74,6 +80,7 @@ function useExtensions() {
       isActive: true,
       nmCategory: "Front End",
       icon: SiTailwindcss,
+      color: "bg-sky-400"
     },
     {
       id: 7,
@@ -84,6 +91,7 @@ function useExtensions() {
       isActive: true,
       nmCategory: "Front End",
       icon: SiTypescript,
+      color: "bg-blue-600"
     },
     {
       id: 8,
@@ -94,6 +102,7 @@ function useExtensions() {
       isActive: false,
       nmCategory: "Front End",
       icon: SiRedux,
+      color: "bg-purple-600"
     },
     {
       id: 9,
@@ -104,6 +113,7 @@ function useExtensions() {
       isActive: true,
       nmCategory: "Front End",
       icon: SiVite,
+      color: "bg-yellow-400"
     },
     {
       id: 10,
@@ -114,6 +124,7 @@ function useExtensions() {
       isActive: false,
       nmCategory: "Front End",
       icon: SiWebpack,
+      color: "bg-blue-500"
     },
     {
       id: 11,
@@ -124,6 +135,7 @@ function useExtensions() {
       isActive: true,
       nmCategory: "Front End",
       icon: SiJest,
+      color: "bg-red-500"
     },
     {
       id: 12,
@@ -134,6 +146,7 @@ function useExtensions() {
       isActive: true,
       nmCategory: "Back End",
       icon: FaNodeJs,
+      color: "bg-green-600"
     },
   ]);
 
